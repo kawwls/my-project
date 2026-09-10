@@ -1,7 +1,7 @@
 # Project State
 
 ## Status
-REQUIREMENTS_APPROVED
+ARCHITECTURE_APPROVED
 
 ## Current Version
 0.0.0
@@ -18,12 +18,16 @@ REQUIREMENTS_APPROVED
 - Product Definition v0.1 approved: personal income/expense tracker with user accounts and persistent database storage
 - Requirements v1.0 defined and approved
 - Product-level locked decisions recorded
+- Architecture v1.0 defined and approved
+- Technology stack approved: Next.js App Router + TypeScript + Supabase Auth/PostgreSQL/RLS + Tailwind CSS + Zod + Recharts
+- Testing direction approved: Vitest + React Testing Library + Playwright + database/RLS tests
+- Deployment target approved: Vercel + Supabase Cloud
 
 ## In Progress
-- Architecture and technology-stack definition
-
-## Known Issues
 None
 
+## Known Issues
+- Supabase project/environment credentials have not been provisioned yet. They are not required to define TASK-0001, but database/auth integration tasks will require an approved environment setup.
+
 ## Next Step
-Define and approve the implementation architecture and technology stack before creating TASK-0001.
+Create TASK-0001 for the project foundation and repository application scaffold. Antigravity must not implement database schema or authentication behavior beyond the scope explicitly approved in that task.
