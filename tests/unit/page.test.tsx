@@ -12,6 +12,6 @@ describe('Landing Page', () => {
 
   it('displays foundation status badge', () => {
     render(<Home />);
-    expect(screen.getByText(/โครงสร้างพื้นฐานพร้อมใช้งาน/)).toBeInTheDocument();
+    expect(screen.getByText(/เริ่มต้นโครงสร้างพื้นฐานแล้ว/)).toBeInTheDocument();
   });
 });
